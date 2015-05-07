@@ -1,12 +1,18 @@
-$ brew cask install vagrant
+Installation requirements:
+==========================
 
-$ brew cask install remote-desktop-connection
+    $ brew cask install vagrant
+    $ brew cask install remote-desktop-connection
 
-$ vagrant up
-despues de un rato terminara y en otra terminal...
-$ vagrant rdp
-autenticacion: usuario "vagrant" password "vagrant"
+Launch:
+=======
 
-Para que se conecte, hay que decirle tu ip (192.168.1.XX) y puerto 4444
+    $ vagrant up
 
+Once it's up you can run:
 
+    $ vagrant rdp
+
+Auth: user "vagrant", pass "vagrant"
+
+Once there, selenium is listening on your lan's IP (ie: 192.168.1.XX), and port 4444
